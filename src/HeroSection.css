@@ -1,0 +1,68 @@
+#one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(73, 94, 87);
+    margin-bottom: 100px;
+}
+#restaurant-columns {
+    max-width: 910px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.table-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: Karla;
+    font-size: 16px;
+    background-color: rgb(244 207 20);
+    margin: 30px 0px  10px 0px;
+    border: 0px;
+}
+.table-button:active {
+    color: white;
+    background-color:  rgba(55, 39, 19, 0.614);
+  }
+.restaurant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.restaurant h1 {
+    color: rgb(244 207 20);
+    font-size: 50px;
+    margin: 10px 0px 0px 0px;
+    font-family: Markazi Text;
+}
+.restaurant h2 {
+    font-family: Karla;
+}
+.restaurant p {
+    font-family: Karla;
+    font-size: 16px;
+    margin: 0px;
+    width: 370px;
+}
+#restaurant-columns img {
+    width: 379px;
+    height: 424px;
+    border-radius: 16px;
+    margin-bottom: -40px;
+    margin-top: 40px;
+}
+@media (max-width: 966px) {
+    #restaurant-columns {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px 0 50px;
+        box-sizing: border-box;
+    }
+    .restaurant p {
+        width: 100%;
+    }
+}

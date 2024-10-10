@@ -4,16 +4,16 @@ function Specials(props) {
   return (
     <>
       <article id="specials">
-        <div class="title">
+        <div className="title">
           <h1>This Weeks Specials!</h1>
           <button type="submit" id="menu-button">
             Online Menu
           </button>
         </div>
         <div id="dishes">
-          <div class="section">
+          <div className="section">
             <img src="./Assets/greeksalad.png" alt="Specials" />
-            <div class="description">
+            <div className="description">
               <div id="price">
                 <h3>Greek Salad</h3>
                 <h4>$12.99</h4>
@@ -28,9 +28,9 @@ function Specials(props) {
               {/* <img src={url} alt="" />   */}
             </div>
           </div>
-          <div class="section">
+          <div className="section">
             <img src="./Assets/bruchetta.png" alt="Specials" />
-            <div class="description">
+            <div className="description">
               <div id="price">
                 <h3>Bruchecta</h3>
                 <h4>$5.99</h4>
@@ -45,9 +45,9 @@ function Specials(props) {
               {/* <img src={url} alt="" />   */}
             </div>
           </div>
-          <div class="section">
+          <div className="section">
             <img src="./Assets/lemondessert.png" alt="Specials" />
-            <div class="description">
+            <div className="description">
               <div id="price">
                 <h3>Lemon Desert</h3>
                 <h4>$12.99</h4>

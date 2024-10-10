@@ -6,7 +6,7 @@ function Homepage(props) {
       <main>
         <article id="one">
           <div id="restaurant-columns">
-            <div class="restaurant">
+            <div className="restaurant">
               <h1>Little Lemon</h1>
               <h2>Chicago</h2>
               <p>
@@ -16,8 +16,8 @@ function Homepage(props) {
                 Auctor aliquet commodo urna. Pellentesque
                 nullam etiam quis magna.
               </p>
-              <Link to="/reservations" class="link">
-                <button type="submit" class="table-button">
+              <Link to="/reservations" className="link">
+                <button type="submit" className="table-button">
                   Reserve a Table
                 </button>
               </Link>

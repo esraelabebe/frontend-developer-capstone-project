@@ -55,14 +55,16 @@
     margin-bottom: -40px;
     margin-top: 40px;
 }
-@media (max-width: 966px) {
+@media (max-width: 1060px) {
     #restaurant-columns {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         padding: 50px 50px 0 50px;
         box-sizing: border-box;
     }
+    /* #restaurant-columns img {
+    } */
     .restaurant p {
-        width: 100%;
+        width: 70%;
     }
 }

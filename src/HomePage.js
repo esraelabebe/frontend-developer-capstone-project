@@ -8,7 +8,7 @@ function HomePage() {
     return(
         <>
         <HeroSection />
-        <div class="page-sections">
+        <div className="page-sections">
           <Specials />
           <CustomersSay />
           <Chicago />

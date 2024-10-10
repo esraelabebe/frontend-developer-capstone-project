@@ -2,102 +2,15 @@
     background-color: #f1f5f3;
     padding-bottom: 100px;
 }
-form {
-    width: 50%;
-    margin-left: 70px;
-    z-index: 1;
-}
-.booking{
-    color: rgb(73, 94, 87);
-    font-family: Markazi Text;
-    padding: 0px 0px 10px 130px;
-    font-size: 48px;
-    font-weight: bold;
-} 
-#online-reservation {
-    width: 100%;
+#booking-page {
     display: flex;
-    justify-content: space-between;
-    /* margin: 0px 0px 200px 0px; */
-}
-label {
-    font-weight: bold;
-    font-family: Karla;
-}
-.input-fields input {
-    width: 310px;
-    height: 48px;
-    border: 0px;
-    border-bottom: 1px solid  rgb(73, 94, 87);
-}
-input {
-    box-sizing: border-box;
-    margin-bottom: 40px;
-    border: none;
-}
-fieldset {
-    display: flex; 
-    gap: 50px;
-    border: none;
-}
-/* fieldset:active {
-    color: black;
-} */
-fieldset legend {
-    font-weight: bold;
-    font-family: Karla;
-}
-#outside {
-    width: 20px;
-    height: 20px;
-}
-#inside {
-    width: 20px;
-    height: 20px;
-}
-.requests input {
-    width: 639px;
-    height: 100px;
-    border: 0px;
-    border-bottom: 1px solid  rgb(73, 94, 87);
-}
-.requests {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.book-now {
-    text-align: center;
-    width: 200px;
-    height: 50px;
-    border-radius: 8px;
-    font-weight: bold;
-    font-family: Karla;
-    font-size: 16px;
-    background-color: rgb(244 207 20);
-    margin: 30px 0px  10px  200px;
-    border: 0px;
-}
-.input-fields {
-    display: flex;
-    gap: 20px;
-}
-.inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    /* box-shadow: ; */
 }
 #hours {
     z-index: 1;
-    padding-top: 150px;
-    width: 40%;
-    margin-right: 90px;
+    padding-top: 180px;
+    width: 50%;
+    padding-right: 130px;
     text-align: center;
-    /* position: absolute; or relative */
-    /* left: 75%; */
-    /* top: 45%; */
-    /* transform: translate(-50%, -50%); */
 }
 #hours h2 {
     font-family: Ingrid Darling;
@@ -105,24 +18,15 @@ fieldset legend {
     font-weight: normal;
     color: white;
     margin: 0;
-    text-shadow: 1px 1px 8px black;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.595);
 }
 #hours p {
-    text-shadow: 1px 1px 8px black;
-    font-size: 20px;
+    margin: 10px;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.595);
+    font-size: 22px;
     font-weight: bold;
     color: white;
     font-family: Karla;
-}
-#occasions {
-    width: 310px;
-    height: 48px;
-    text-align: center;
-    border: none;
-    border-bottom: 1px solid  rgb(73, 94, 87);
-    font-size: 16px;
-    font-family: Karla;
-    font-weight: bold;
 }
 #overlay {
     width: 100%;
@@ -147,9 +51,6 @@ fieldset legend {
     #hours {
         display: none;
     }
-    .book-now {
-        margin: 0;
-    }
     .booking {
         padding: 0;
      }
@@ -158,10 +59,7 @@ fieldset legend {
     .input-fields {
         flex-direction: column;
     }
-    .requests input {
-        width: 310px;
-        height: 100px;
-    }
+
 }
 
 

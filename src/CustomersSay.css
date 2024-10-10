@@ -38,6 +38,9 @@
     font-size: 12px;
     gap: 10px;
 }
+#testimonial p {
+    width: 150px;
+}
 .stars {
     display: flex;
     flex-direction: column;

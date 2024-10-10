@@ -19,8 +19,8 @@ function Chicago(props) {
             egestas.                                 </p>
         </div>
         <div id="about-images">
-            <img class="img1" src="./Assets/MarioandAdrianb.png" alt="User"/> 
-            <img class="img2" src="./Assets/MarioandAdrianA.png" alt="User"/>
+            <img className="img1" src="./Assets/MarioandAdrianb.png" alt="User"/> 
+            <img className="img2" src="./Assets/MarioandAdrianA.png" alt="User"/>
         </div>
     </article>
         </>

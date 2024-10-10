@@ -10,7 +10,6 @@
     list-style-type: none;
 }
 header {
-    /* position: fixed; */
     position: sticky;
     top: 0;
     background-color: white;
@@ -33,11 +32,42 @@ a {
 a:link {
     text-decoration: none;
 }
-a:hover { 
+a:hover {
    text-decoration: underline;
 }
+.MobileNavigation {
+    display: none;
+}
 @media (max-width: 966px) {
-    .nav-bar {
+    header {
+        flex-direction: column;
+    }
+}
+@media (max-width: 673px) {
+    .DesktopNavigation {
         display: none;
+    }
+    .MobileNavigation{
+        display: flex;
+        align-items: center;
+        height: 15vh;
+    }
+    .NavLinks ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 13vh;
+        right: 0;
+        height: 50vh;
+        width: 100%;
+        border-top: 1px solid black;
+        background:white;
+     }
+     .HamburgerMenu{
+        position: absolute;
+        right: 3%;
+        cursor: pointer;
+        color: rgb(73, 94, 87);
     }
 }

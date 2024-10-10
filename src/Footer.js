@@ -5,7 +5,7 @@ function Footer(props) {
     return (
         <footer>
             <img src="./Assets/footerlogo.png" alt="User"/>
-            <div class="contact">
+            <div className="contact">
                 <div>
                     <p>Doormat<br /> Navigation</p>
                 <ul>

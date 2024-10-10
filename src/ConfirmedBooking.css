@@ -1,0 +1,9 @@
+#booking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    font-size: 40px;
+    font-family: Karla;
+    background-color: #f1f5f3;
+}

@@ -62,6 +62,7 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
         })}
         onSubmit={(values) => {
           submitForm(values);
+          console.log(values);
         }}
       >
         {(formik) => (
@@ -153,7 +154,6 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
                       {formik.errors.bookingDate}
                     </div>
                   ) : null}
-                  {/* <input type="input" id="booking_date" name="booking-date" /> */}
                 </div>
                 <div className="inputs">
                   <label htmlFor="bookingAdults">Number of Adults</label>
@@ -186,7 +186,7 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
                 <fieldset>
                   <legend>Seatings:</legend>
                   <div id="seatings">
-                    <div>
+                    <div className="seatingsOption">
                       <Field
                         type="radio"
                         id="outside"
@@ -195,7 +195,7 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
                       />
                       <label htmlFor="outside">Outside</label>
                     </div>
-                    <div>
+                    <div className="seatingsOption">
                       <Field
                         type="radio"
                         id="inside"
@@ -346,7 +346,7 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
                 </div>
               </div>
             </div>
-            <div className="requests">
+            <div className="requestsFormGroup">
               <label htmlFor="requests">Special Requests (optional)</label>
               <textarea
                 name="requests"

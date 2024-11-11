@@ -1,67 +1,62 @@
 .wrapper {
-    background-color: #f1f5f3;
-    padding-bottom: 100px;
+  background-color: #f1f5f3;
+  padding-bottom: 100px;
 }
 #booking-page {
-    display: flex;
+  display: flex;
 }
 #hours {
-    z-index: 1;
-    padding-top: 180px;
-    width: 50%;
-    padding-right: 130px;
-    text-align: center;
+  z-index: 1;
+  padding-top: 180px;
+  width: 50%;
+  padding-right: 130px;
+  text-align: center;
 }
 #hours h2 {
-    font-family: Ingrid Darling;
-    font-size: 70px;
-    font-weight: normal;
-    color: white;
-    margin: 0;
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.595);
+  font-family: Ingrid Darling;
+  font-size: 70px;
+  font-weight: normal;
+  color: white;
+  margin: 0;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.595);
 }
 #hours p {
-    margin: 10px;
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.595);
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    font-family: Karla;
+  margin: 10px;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.595);
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  font-family: Karla;
 }
 #overlay {
-    width: 100%;
-    object-fit: cover;
-    height: 700px;
-    position: absolute;
-    margin-top: 80px;
-    z-index: 0;
-    top: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 700px;
+  position: absolute;
+  margin-top: 80px;
+  z-index: 0;
+  top: 0;
 }
 @media (max-width: 1251px) {
-    #online-reservation {
-        flex-direction: column; 
-    }
-    form {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        margin: 0;
-    }
-    #hours {
-        display: none;
-    }
-    .booking {
-        padding: 0;
-     }
+  #online-reservation {
+    flex-direction: column;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+  }
+  #hours {
+    display: none;
+  }
+  .booking {
+    padding: 0;
+  }
 }
 @media (max-width: 673px) {
-    .input-fields {
-        flex-direction: column;
-    }
-
+  .input-fields {
+    flex-direction: column;
+  }
 }
-
-
-
-

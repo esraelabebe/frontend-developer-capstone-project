@@ -19,10 +19,8 @@ function Specials(props) {
                 <h4>$12.99</h4>
               </div>
               <p>
-                Lorem ipsum dolor sit amet
-                consectetur. Feugiat donec
-                luctus sed blandit rutrum
-                laoreet vulputate. Venenatis.
+                Lorem ipsum dolor sit amet consectetur. Feugiat donec luctus sed
+                blandit rutrum laoreet vulputate. Venenatis.
               </p>
               <h4>Order a delivery</h4>
               {/* <img src={url} alt="" />   */}
@@ -36,10 +34,8 @@ function Specials(props) {
                 <h4>$5.99</h4>
               </div>
               <p>
-                Lorem ipsum dolor sit amet
-                consectetur. Feugiat donec
-                luctus sed blandit rutrum
-                laoreet vulputate. Venenatis.
+                Lorem ipsum dolor sit amet consectetur. Feugiat donec luctus sed
+                blandit rutrum laoreet vulputate. Venenatis.
               </p>
               <h4>Order a delivery</h4>
               {/* <img src={url} alt="" />   */}
@@ -53,10 +49,8 @@ function Specials(props) {
                 <h4>$12.99</h4>
               </div>
               <p>
-                Lorem ipsum dolor sit amet
-                consectetur. Feugiat donec
-                luctus sed blandit rutrum
-                laoreet vulputate. Venenatis.
+                Lorem ipsum dolor sit amet consectetur. Feugiat donec luctus sed
+                blandit rutrum laoreet vulputate. Venenatis.
               </p>
               <h4>Order a delivery </h4>
               {/* <img src={url} alt="" />   */}

@@ -1,161 +1,193 @@
 form {
-    width: 100%;
-    margin-left: 150px;
-    z-index: 1;
+  width: 100%;
+  margin-left: 150px;
+  z-index: 1;
 }
-.booking{
-    color: rgb(73, 94, 87);
-    font-family: Markazi Text;
-    padding: 0px 0px 10px 130px;
-    font-size: 48px;
-    font-weight: bold;
-} 
+.booking {
+  color: rgb(73, 94, 87);
+  font-family: Markazi Text;
+  padding: 0px 0px 10px 130px;
+  font-size: 48px;
+  font-weight: bold;
+}
 #online-reservation {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .first-column {
-display: flex;
-flex-direction: column;
-gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .second-column {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 label {
-    font-weight: bold;
-    font-family: Karla;
+  font-weight: bold;
+  font-family: Karla;
 }
 .formElement {
-    width: 310px;
-    height: 48px;
-    border: none;
-    border-bottom: 1px solid  rgb(73, 94, 87);
+  width: 310px;
+  height: 48px;
+  border: none;
+  border-bottom: 1px solid rgb(73, 94, 87);
 }
 input {
-    box-sizing: border-box;
-    border: none;
+  box-sizing: border-box;
+  border: none;
 }
 fieldset {
-    display: flex; 
-    flex-direction: column;
-    border: none;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 #seatings {
-    display: flex; 
-    gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 #occasions {
-    width: 310px;
-    height: 48px;
-    text-align: center;
-    border: none;
-    border-bottom: 1px solid  rgb(73, 94, 87);
-    font-size: 16px;
-    font-family: Karla;
-    font-weight: bold;
-    margin-top: 5px;
+  width: 310px;
+  height: 48px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid rgb(73, 94, 87);
+  font-size: 16px;
+  font-family: Karla;
+  font-weight: bold;
+  margin-top: 5px;
 }
 fieldset legend {
-    font-weight: bold;
-    font-family: Karla;
+  font-weight: bold;
+  font-family: Karla;
+  margin-bottom: 5px;
+}
+.seatingsOption {
+  display: flex;
+  align-items: center;
+}
+.seatingsOption label {
+  margin-top: 4px;
 }
 #bookTime {
-    width: 310px;
-    height: 48px;
-    /* text-align: center; */
-    border: none;
-    border-bottom: 1px solid  rgb(73, 94, 87);
-    font-size: 16px;
-    font-family: Karla;
-    font-weight: bold;
-    /* padding: 0 40px 0 40px; */
-    padding: 0 20px 0 20px;
+  width: 310px;
+  height: 48px;
+  border: none;
+  border-bottom: 1px solid rgb(73, 94, 87);
+  font-size: 16px;
+  font-family: Karla;
+  font-weight: bold;
+  padding: 0 20px 0 20px;
 }
 #bookingDate {
-    padding: 0 20px 0 20px;
-    font-size: 16px;
-    font-family: Karla;
-    font-weight: bold;
+  padding: 0 20px 0 20px;
+  font-size: 16px;
+  font-family: Karla;
+  font-weight: bold;
 }
 #bookingAdults {
-    padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 }
 #bookingChildren {
-    padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 }
 #outside {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 #inside {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 #requests {
-    width: 635px;
-    height: 80px;
-    border: 0px;
-    border-bottom: 1px solid  rgb(73, 94, 87);
+  width: 635px;
+  height: 80px;
+  border: 0px;
+  border-bottom: 1px solid rgb(73, 94, 87);
+  padding-left: 10px;
+  gap: 5px;
 }
-.requests {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin-top: 40px;
+.requestsFormGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 40px;
 }
 #submitButton {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-right: 180px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-right: 180px;
 }
 .book-now {
-    width: 200px;
-    height: 50px;
-    border-radius: 8px;
-    font-weight: bold;
-    font-family: Karla;
-    font-size: 16px;
-    background-color: rgb(244 207 20);
-    border: 0px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: Karla;
+  font-size: 16px;
+  background-color: rgb(244 207 20);
+  border: 0px;
 }
 .book-now:active {
-    background-color: rgba(55, 39, 19, 0.614);
-    color: white;
+  color: rgb(254, 254, 254);
+  background-color: rgb(200, 158, 5);
 }
 .input-fields {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 .inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    /* margin-bottom: 40px; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.inputs input {
+  padding-left: 10px;
+}
+.inputs input:focus,
+.inputs select:focus,
+#occasions:focus {
+  outline: none;
+  border-bottom: 2px solid rgba(5, 102, 44, 0.425);
+}
+#requests:focus {
+  outline: none;
+  border-bottom: 2px solid rgba(5, 102, 44, 0.425);
 }
 .error-massage {
-    color: #fa4141fe;
+  color: #fa4141fe;
 }
 @media (max-width: 1251px) {
-    #submitButton {
-        margin-right: 0px;    }
-    form {
-        margin: 0;
-    }
-    .booking {
-        padding: 0;
-    }
+  #submitButton {
+    margin-right: 0px;
+  }
+  form {
+    margin: 0;
+  }
+  .booking {
+    padding: 0;
+  }
 }
 @media (max-width: 673px) {
-    #requests {
-        width: 310px;
-        height: 100px;
-    }
-    .booking {
-        padding: 0;
-    }
+  #requests {
+    width: 360px;
+    height: 100px;
+  }
+  .booking {
+    padding: 0;
+  }
+  .formElement {
+    width: 360px;
+  }
+  #bookTime {
+    width: 360px;
+  }
+  #occasions {
+    width: 360px;
+  }
 }

@@ -1,82 +1,82 @@
 #specials {
-    max-width: 1060px;
+  max-width: 1060px;
 }
 .title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .title h1 {
-    font-family: Markazi Text;
-    font-size: 40px;
-    font-weight: normal;
+  font-family: Markazi Text;
+  font-size: 40px;
+  font-weight: normal;
 }
 #menu-button {
-    width: 200px;
-    height: 50px;
-    border-radius: 8px;
-    font-weight: bold;
-    font-family: Karla;
-    font-size: 16px;
-    background-color: rgb(244 207 20);
-    border: 0px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: Karla;
+  font-size: 16px;
+  background-color: rgb(244 207 20);
+  border: 0px;
 }
 #menu-button:active {
-    color: white;
-    background-color:  rgb(55, 39, 19);
-  }
+  color: rgb(254, 254, 254);
+  background-color: rgb(200, 158, 5);
+}
 #specials img {
-    width: 308px;
-    height: 260px;
-    border-top-left-radius:  16px;
-    border-top-right-radius: 16px;
+  width: 308px;
+  height: 260px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 #dishes {
-    display: flex;
-    justify-content: space-between;
-    gap: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
 }
 .section {
-    background-color: rgb(242, 244, 243);
-    border-top-left-radius:  16px;
-    border-top-right-radius: 16px;
-    height: 528px;
-    width: 308px;
-    font-family: Karla;
+  background-color: rgb(242, 244, 243);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 528px;
+  width: 308px;
+  font-family: Karla;
 }
 .description {
-    margin: 0px 70px 10px 10px;
+  margin: 0px 70px 10px 10px;
 }
 #price {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #price h4 {
-     color:rgb(238, 153, 144);
+  color: rgb(238, 153, 144);
 }
 .description p {
-    margin-bottom: 30px;
-    color: rgb(73, 94, 87);
+  margin-bottom: 30px;
+  color: rgb(73, 94, 87);
 }
 .description h3 {
-    font-size: 16px;
+  font-size: 16px;
 }
 @media (max-width: 1060px) {
-    #dishes{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .title {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    .section {
-        width: 90%;
-    }
-    #specials img {
-        width: 100%;
-        object-fit: cover;
-    }
+  #dishes {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .title {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .section {
+    width: 90%;
+  }
+  #specials img {
+    width: 100%;
+    object-fit: cover;
+  }
 }

@@ -2,10 +2,9 @@ import "./BookingPage.css";
 import Main from "./Main";
 
 function BookingPage(props) {
-  
   return (
     <div className="wrapper">
-      <img id="overlay" src="./Assets/restaurant.png" alt="restaurant image" />
+      <img id="overlay" src="./Assets/restaurant.png" alt="restaurant" />
       <div id="booking-page">
         <Main />
         <div id="hours">

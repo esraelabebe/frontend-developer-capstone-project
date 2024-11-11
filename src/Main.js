@@ -25,7 +25,7 @@ const fetchAPI = function (date) {
   }
   return result;
 };
-const submitAPI = function(formData) {
+const submitAPI = function (formData) {
   return true;
 };
 
@@ -39,20 +39,26 @@ export function updateTimes(state, action) {
 }
 
 export const initializeTimes = () => {
-  const date  = new Date();
-  return  fetchAPI(date);
+  const date = new Date();
+  return fetchAPI(date);
 };
 
 function Main(props) {
   const [availableTimes, dispatch] = useReducer(updateTimes, initializeTimes());
   const navigate = useNavigate();
 
-  function submitForm (formData) {
-    const submitted =  submitAPI(formData);
-    if(submitted) {
+  function submitForm(formData) {
+    const submitted = submitAPI(formData);
+    if (submitted) {
       navigate("/confirmed-booking");
     }
   }
-  return <BookingForm availableTimes={availableTimes} dispatch={dispatch} submitForm={submitForm} />;
+  return (
+    <BookingForm
+      availableTimes={availableTimes}
+      dispatch={dispatch}
+      submitForm={submitForm}
+    />
+  );
 }
 export default Main;

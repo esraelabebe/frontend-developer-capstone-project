@@ -1,71 +1,68 @@
 #about {
-    display: flex;
-    gap: 150px;
-    align-items: center;
-    width: 100%;
-    margin: 100px 0px 100px 0px;
-    max-width: 1060px;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  width: 100%;
+  margin: 100px 0px 100px 0px;
+  max-width: 1060px;
 }
 #about-title {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 #about h1 {
-    font-size: 64px;
-    font-weight: normal;
-    color: rgb(244, 207, 20);
-    font-family: Markazi Text;
-    margin: 0;
+  font-size: 64px;
+  font-weight: normal;
+  color: rgb(244, 207, 20);
+  font-family: Markazi Text;
+  margin: 0;
 }
 #about h2 {
-    color: rgb(73, 94, 87);
-    margin: 0;
-    font-size: 32px;
-    font-weight: normal;
-    /* margin-bottom: 20px; */
+  color: rgb(73, 94, 87);
+  margin: 0;
+  font-size: 32px;
+  font-weight: normal;
 }
 #about p {
-    font-size: 20px;
-    width: 400px;
-    text-align: justify;
-    color: rgb(73, 94, 87);
-    text-align: justify-all;
-    font-family: Karla;
-    letter-spacing: 1px;
+  font-size: 20px;
+  width: 400px;
+  text-align: justify;
+  color: rgb(73, 94, 87);
+  text-align: justify-all;
+  font-family: Karla;
+  letter-spacing: 1px;
 }
 #about img {
-    width: 271px;
-    height: 338px;
-    border-radius: 8px;
-    object-fit: cover;
+  width: 271px;
+  height: 338px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 #about-images {
-    padding-top: 170px;
-    position: relative;
+  padding-top: 170px;
+  position: relative;
 }
-#about-images .img2{
-    position: absolute;
-    margin-top: -140px;
-    margin-left: -60px;
-    box-shadow: 0px 15px 5px -15px #111; 
+#about-images .img2 {
+  position: absolute;
+  margin-top: -140px;
+  margin-left: -60px;
+  box-shadow: 0px 15px 5px -15px #111;
 }
 @media (max-width: 966px) {
-    #about{
-        flex-direction: column;
-        /* flex-wrap: wrap; */
-        justify-content: center;
-    }
-    #about img {
+  #about {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #about img {
     width: 171px;
     height: 238px;
     margin-top: 20px;
-   
-    }
-    #about p {
-        width: 400px;
-    }
-    #about-images {
-        padding-top: 0px;
-    }
+  }
+  #about p {
+    width: 400px;
+  }
+  #about-images {
+    padding-top: 0px;
+  }
 }

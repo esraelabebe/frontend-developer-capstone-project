@@ -23,7 +23,6 @@ function Specials(props) {
                 blandit rutrum laoreet vulputate. Venenatis.
               </p>
               <h4>Order a delivery</h4>
-              {/* <img src={url} alt="" />   */}
             </div>
           </div>
           <div className="section">
@@ -38,7 +37,6 @@ function Specials(props) {
                 blandit rutrum laoreet vulputate. Venenatis.
               </p>
               <h4>Order a delivery</h4>
-              {/* <img src={url} alt="" />   */}
             </div>
           </div>
           <div className="section">
@@ -53,7 +51,6 @@ function Specials(props) {
                 blandit rutrum laoreet vulputate. Venenatis.
               </p>
               <h4>Order a delivery </h4>
-              {/* <img src={url} alt="" />   */}
             </div>
           </div>
         </div>

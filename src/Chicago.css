@@ -3,8 +3,8 @@
   gap: 150px;
   align-items: center;
   width: 100%;
-  margin: 100px 0px 100px 0px;
   max-width: 1060px;
+  margin: 100px 0px 100px 0px;
 }
 #about-title {
   display: flex;
@@ -34,7 +34,8 @@
   letter-spacing: 1px;
 }
 #about img {
-  width: 271px;
+  width: 100%;
+  max-width: 271px;
   height: 338px;
   border-radius: 8px;
   object-fit: cover;
@@ -59,10 +60,23 @@
     height: 238px;
     margin-top: 20px;
   }
-  #about p {
-    width: 400px;
-  }
+  /* #about p {
+    width: 100%;
+  } */
   #about-images {
     padding-top: 0px;
+  }
+}
+@media (max-width: 400px) {
+  #about {
+    max-width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+  #about p {
+    width: 100%;
+  }
+  #about-images {
+    align-self: flex-start;
   }
 }

@@ -37,6 +37,9 @@ footer ul {
 }
 @media (max-width: 550px) {
   .contact {
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 5%;
   }
 }

@@ -175,7 +175,7 @@ fieldset legend {
 }
 @media (max-width: 673px) {
   #requests {
-    width: 360px;
+    width: 348px;
     height: 100px;
   }
   .booking {
@@ -189,5 +189,10 @@ fieldset legend {
   }
   #occasions {
     width: 360px;
+  }
+}
+@media (max-width: 370px) {
+  .booking {
+    font-size: 40px;
   }
 }

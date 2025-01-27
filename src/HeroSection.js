@@ -21,7 +21,7 @@ function Homepage(props) {
                 </button>
               </Link>
             </div>
-            <img src="./Assets/restauranfood.png" alt="Restaurant Food" />
+            <img src="./Assets/restauranfood.png" alt="Restaurant Food"/>
           </div>
         </article>
       </main>

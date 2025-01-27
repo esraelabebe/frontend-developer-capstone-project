@@ -13,12 +13,12 @@ function Chicago(props) {
             urna. eget risus viverra pol. Fermentum non nam eiget erat amet ma
             nulla in non. Velit lobortiis vel dictumst malesuada le tortor. Eut
             anec pellentesque. Viverra ur Neque interdum amet enim impeardietc
-            egestas.{" "}
+            egestas.
           </p>
         </div>
         <div id="about-images">
-          <img className="img1" src="./Assets/MarioandAdrianb.png" alt="User" />
-          <img className="img2" src="./Assets/MarioandAdrianA.png" alt="User" />
+          <img className="img1" src="./Assets/MarioandAdrianb.png" alt="User"/>
+          <img className="img2" src="./Assets/MarioandAdrianA.png" alt="User"/>
         </div>
       </article>
     </>

@@ -49,7 +49,8 @@
   width: 370px;
 }
 #restaurant-columns img {
-  width: 379px;
+  width: 100%;
+  max-width: 379px;
   height: 424px;
   border-radius: 16px;
   margin-bottom: -40px;
@@ -66,5 +67,27 @@
   }
   .restaurant p {
     width: 70%;
+  }
+}
+@media (max-width: 673px) {
+  .restaurant p {
+    width: 100%;
+  }
+}
+@media (max-width: 429px) {
+  #restaurant-columns {
+    padding: 50px 50px 0 20px;
+  }
+  #restaurant-columns img {
+    width: 279;
+    height: 424px;
+  }
+}
+@media (max-width: 400px) {
+  #restaurant-columns img {
+    max-width: 360px;
+  }
+  #restaurant-columns {
+    padding: 50px 50px 0 10px;
   }
 }

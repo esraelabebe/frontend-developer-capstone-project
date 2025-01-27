@@ -12,7 +12,7 @@ function Specials(props) {
         </div>
         <div id="dishes">
           <div className="section">
-            <img src="./Assets/greeksalad.png" alt="Specials" />
+            <img src="./Assets/greeksalad.png" alt="greeksalad" />
             <div className="description">
               <div id="price">
                 <h3>Greek Salad</h3>
@@ -26,7 +26,7 @@ function Specials(props) {
             </div>
           </div>
           <div className="section">
-            <img src="./Assets/bruchetta.png" alt="Specials" />
+            <img src="./Assets/bruchetta.png" alt="bruchetta" />
             <div className="description">
               <div id="price">
                 <h3>Bruchecta</h3>
@@ -40,7 +40,7 @@ function Specials(props) {
             </div>
           </div>
           <div className="section">
-            <img src="./Assets/lemondessert.png" alt="Specials" />
+            <img src="./Assets/lemondessert.png" alt="lemondessert" />
             <div className="description">
               <div id="price">
                 <h3>Lemon Desert</h3>
